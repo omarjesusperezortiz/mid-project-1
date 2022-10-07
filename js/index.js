@@ -15,7 +15,7 @@ const newComment = data[num].body
 //console.log(newTitle,newComment)
 const project = document.querySelector('#project-1');
 project.innerHTML = 
-`<img src="/media/projects-section/${num}.jpg" alt="" srcset="" />
+`<img src="./media/projects-section/${num}.jpg" alt="" srcset="" />
 <div  class="container-in">
 <h3 >${newTitle}</h3>
 <p class="headline-regular">${newComment}</p>
@@ -30,7 +30,7 @@ const post2 = async (num) => {
     //console.log(newTitle,newComment)
     const project = document.querySelector('#project-2');
     project.innerHTML = 
-    `<img src="/media/projects-section/${num}.jpg" alt="" srcset="" />
+    `<img src="./media/projects-section/${num}.jpg" alt="" srcset="" />
     <div  class="container-in">
     <h3 >${newTitle}</h3>
     <p class="headline-regular">${newComment}</p>
@@ -45,7 +45,7 @@ const post3 = async (num) => {
         //console.log(newTitle,newComment)
         const project = document.querySelector('#project-3');
         project.innerHTML = 
-        `<img src="/media/projects-section/${num}.jpg" alt="" srcset="" />
+        `<img src="./media/projects-section/${num}.jpg" alt="" srcset="" />
         <div  class="container-in">
         <h3 >${newTitle}</h3>
         <p class="headline-regular">${newComment}</p>
@@ -68,7 +68,7 @@ const post3 = async (num) => {
           </div>
           <div class="container">
               <div class="project">
-                  <img src="/media/projects-section/${num}.jpg" alt="" srcset="">
+                  <img src="./media/projects-section/${num}.jpg" alt="" srcset="">
                   <p class="body-regular">
                   ${newComment}
                   </p>
