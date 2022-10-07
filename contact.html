@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/styles/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700" media="all">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+      </head>
+  <body>
+    <header>
+        <div class="container">   
+          <div class="logo-nav">
+            <a href="/index.html"><img src="/media/logos/circle.svg" alt="" srcset="" /></a>
+            
+          </div>
+          <div class="nav-menu" id="myTopNav">
+            <a href="javascript:void(0);" class="icon" id="hamburger">
+              <i class="fa fa-bars"></i>
+            </a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="#">Services</a></li>
+  
+          </div>
+          <div class="frame-contact"><a href="/contact.html">Contact Us</a></div>
+        </div>
+        <div class="nav-responsive" id="ham-nav"></div>
+      </header>
+    <div class="section">
+        <div class="contacto">
+            <h1>Contact Us</h1>
+            <form id="formulario" class="form" method="post" action="">
+                <div class="name">
+                    <label for="Name">Full Name *</label>
+                    <div class="">
+                        <input type="text" value="" id="name-input" name="Name" class="" required placeholder="Enter your full name">
+                    </div>
+                </div>
+        
+                <div class="second-row">
+                    <div class="email">
+                        <label for="Email">Email *</label>
+                        <div class="">
+                            <input type="email" id="Email" name="Email" class="" required placeholder="Enter your email address">
+                        </div>
+                    </div>
+            
+                    <div class="phone">
+                        <label for="Phone">Phone</label>
+                        <div class="">
+                            <input type="number" id="Phone" name="Phone" class="" required placeholder="Enter your phone number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <label for="Message">Message</label>
+                    <div class="">
+                        <textarea id="Message" name="Message" class="" rows="6" maxlength="3000" required placeholder="Write your message here..."></textarea>
+                    </div>
+                </div>
+        
+                <div class="submit">
+                    <button type="submit" id="button" class="">Submit</button>
+                </div>
+                
+            </form>
+            <div id="respuesta"></div>
+        </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="content">
+                <div class="logo">
+                    <img src="/media/logos/circle.svg" alt="" srcset="">
+                </div>
+                <p class="headline-regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+            </div>
+            <div class="links">
+                    <li class="headline-regular">Team</li>
+                    <li class="headline-regular">Services</li>
+                    <li class="headline-regular">About Us</li>
+                    <li class="headline-regular">Press</li>
+                    <li class="headline-regular">Projects</li>
+                    <li class="headline-regular">Privacy Policy</li>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/forms.js"></script>
+  </body>
+  <script src="/js/hamburger.js"></script>
+</html>
